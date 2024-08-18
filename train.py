@@ -20,5 +20,5 @@ y_predict = model.predict(x_test)
 print(y_test)
 print(y_predict)
 
-print(model.score(x_test, y_test))
+print(model.score(x_test, y_test))  # 0.95
 # print(accuracy_score(y_test, y_predict))
